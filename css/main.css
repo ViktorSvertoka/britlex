@@ -1,0 +1,213 @@
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  width: 300px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header {
+  padding-top: 36px;
+}
+
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__logo {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #000000;
+}
+
+.header__logo-accent {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #939393;
+}
+
+.header__nav {
+  display: none;
+}
+
+.header__burger-menu-wrapper {
+  margin-left: auto;
+}
+
+.header__burger-menu-button {
+  background-color: transparent;
+  border: none;
+}
+
+.header__burger-menu-icon {
+  width: 33.53px;
+  height: 19px;
+}
+
+.hero {
+  padding-top: 29px;
+}
+
+.hero__img {
+  width: 300px;
+  height: 300px;
+}
+
+.hero__title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.5;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.hero__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  color: #8f95a5;
+  margin-top: 20px;
+}
+
+.hero__button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ffffff;
+  width: 290px;
+  height: 60px;
+  background: #263238;
+  border-radius: 5px;
+  margin-top: 33px;
+}
+
+.skills {
+  padding-top: 53px;
+}
+
+.skills__title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 3.33;
+  text-align: center;
+}
+
+.skills__wrapper {
+  padding: 8px 16px 38px 16px;
+  background: #f5f5f5;
+  border-radius: 5px;
+  margin-bottom: 21px;
+}
+
+.skills__img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skills__subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 4.44;
+}
+
+.skills__text {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.54;
+  color: #8f95a5;
+}
+
+.skills__button {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #ffffff;
+  width: 178px;
+  height: 50px;
+  background: #263238;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.about {
+  padding-top: 50px;
+}
+
+.about__title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 3.33;
+  text-align: center;
+}
+
+.about__text {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.54;
+  text-align: center;
+  color: #8f95a5;
+}
+
+.about__number {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 3.33;
+  text-align: center;
+}
+
+.about__desc {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.54;
+  color: #8f95a5;
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */
