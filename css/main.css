@@ -48,9 +48,23 @@ button {
   margin-right: auto;
   margin-left: auto;
 }
+@media screen and (min-width: 575px) {
+  .container {
+    width: 535px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
 
 .header {
   padding-top: 36px;
+}
+@media screen and (min-width: 575px) {
+  .header {
+    padding-top: 39px;
+  }
 }
 
 .header__container {
@@ -72,12 +86,24 @@ button {
   line-height: 1.5;
   color: #000000;
 }
+@media screen and (min-width: 575px) {
+  .header__logo-primary {
+    font-size: 30px;
+    line-height: 1.5;
+  }
+}
 
 .header__logo-accent {
   font-weight: 400;
   font-size: 24px;
   line-height: 1.5;
   color: #939393;
+}
+@media screen and (min-width: 575px) {
+  .header__logo-accent {
+    font-size: 30px;
+    line-height: 1.5;
+  }
 }
 
 .header__nav {
@@ -97,14 +123,33 @@ button {
   width: 33.53px;
   height: 19px;
 }
+@media screen and (min-width: 575px) {
+  .header__burger-menu-icon {
+    width: 42.35px;
+    height: 24px;
+  }
+}
 
 .hero {
   padding-top: 29px;
+}
+@media screen and (min-width: 575px) {
+  .hero {
+    padding-top: 54px;
+  }
 }
 
 .hero__img {
   width: 300px;
   height: 300px;
+}
+@media screen and (min-width: 575px) {
+  .hero__img {
+    width: 424px;
+    height: 424px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .hero__title {
@@ -114,6 +159,14 @@ button {
   text-align: center;
   margin-top: 16px;
 }
+@media screen and (min-width: 575px) {
+  .hero__title {
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 1.32;
+    white-space: nowrap;
+  }
+}
 
 .hero__text {
   font-weight: 400;
@@ -122,6 +175,15 @@ button {
   text-align: center;
   color: #8f95a5;
   margin-top: 20px;
+}
+@media screen and (min-width: 575px) {
+  .hero__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 26px;
+  }
 }
 
 .hero__button {
@@ -135,11 +197,22 @@ button {
   border-radius: 5px;
   margin-top: 33px;
 }
+@media screen and (min-width: 575px) {
+  .hero__button {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.5;
+    width: 305px;
+    height: 75px;
+    margin-top: 37px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 
 .skills {
   padding-top: 53px;
 }
-
 .skills__title {
   font-weight: 600;
   font-size: 24px;

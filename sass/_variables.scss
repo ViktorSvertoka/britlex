@@ -60,4 +60,12 @@ button {
   padding-right: 10px;
   margin-right: auto;
   margin-left: auto;
+
+  @media screen and (min-width: 575px) {
+    width: 535px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }

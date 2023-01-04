@@ -1,5 +1,9 @@
 .header {
   padding-top: 36px;
+
+  @media screen and (min-width: 575px) {
+    padding-top: 39px;
+  }
 }
 
 .header__container {
@@ -16,6 +20,11 @@
   font-size: 24px;
   line-height: 1.5;
   color: $primary-color;
+
+  @media screen and (min-width: 575px) {
+    font-size: 30px;
+    line-height: 1.5;
+  }
 }
 
 .header__logo-accent {
@@ -23,6 +32,11 @@
   font-size: 24px;
   line-height: 1.5;
   color: $logo-accent-color;
+
+  @media screen and (min-width: 575px) {
+    font-size: 30px;
+    line-height: 1.5;
+  }
 }
 
 .header__nav {
@@ -53,17 +67,34 @@
 .header__burger-menu-icon {
   width: 33.53px;
   height: 19px;
+
+  @media screen and (min-width: 575px) {
+    width: 42.35px;
+    height: 24px;
+  }
 }
 
 .hero {
   padding-top: 29px;
+
+  @media screen and (min-width: 575px) {
+    padding-top: 54px;
+  }
 }
+
 .hero__wrapper {
 }
 
 .hero__img {
   width: 300px;
   height: 300px;
+
+  @media screen and (min-width: 575px) {
+    width: 424px;
+    height: 424px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .hero__title {
@@ -72,6 +103,13 @@
   line-height: 1.5;
   text-align: center;
   margin-top: 16px;
+
+  @media screen and (min-width: 575px) {
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 1.32;
+    white-space: nowrap;
+  }
 }
 
 .hero__text {
@@ -81,6 +119,14 @@
   text-align: center;
   color: $text-color;
   margin-top: 20px;
+
+  @media screen and (min-width: 575px) {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 26px;
+  }
 }
 
 .hero__button {
@@ -93,10 +139,23 @@
   background: $bg-color-button;
   border-radius: 5px;
   margin-top: 33px;
+
+  @media screen and (min-width: 575px) {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.5;
+    width: 305px;
+    height: 75px;
+    margin-top: 37px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .skills {
   padding-top: 53px;
+  @media screen and (min-width: 575px) {
+  }
 }
 
 .skills__title {
