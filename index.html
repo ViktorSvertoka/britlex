@@ -21,7 +21,9 @@
     <header class="header">
       <div class="header__container container">
         <a class="header__logo" href="##"
-          >Brit<span class="header__logo-accent">lex</span></a
+          ><p class="header__logo-primary">
+            Brit<span class="header__logo-accent">lex</span>
+          </p></a
         >
         <nav class="header__nav">
           <ul class="header__list">
@@ -59,16 +61,12 @@
             <picture>
               <source
                 srcset="
-                  ./images/languages-mob-1x.jpg 1x,
-                  ./images/languages-mob-2x.jpg 2x
+                  ./images/languages-mob-1x.png 1x,
+                  ./images/languages-mob-2x.png 2x
                 "
                 media="(min-width:320px)"
               />
-              <img
-                class="hero__img"
-                src="./images/learning-languages.jpg"
-                alt="learning-languages"
-              />
+              <img class="hero__img" src="" alt="learning-languages" />
             </picture>
             <h1 class="hero__title">Learn Any Foreign Language</h1>
             <p class="hero__text">
@@ -86,8 +84,8 @@
             <picture>
               <source
                 srcset="
-                  ./images/speaking-mob-1x.jpg 1x,
-                  ./images/speaking-mob-2x.jpg 2x
+                  ./images/speaking-mob-1x.png 1x,
+                  ./images/speaking-mob-2x.png 2x
                 "
                 media="(min-width:320px)"
               />
@@ -114,8 +112,8 @@
             <picture>
               <source
                 srcset="
-                  ./images/writing-mob-1x.jpg 1x,
-                  ./images/writing-mob-2x.jpg 2x
+                  ./images/writing-mob-1x.png 1x,
+                  ./images/writing-mob-2x.png 2x
                 "
                 media="(min-width:320px)"
               />
@@ -136,8 +134,8 @@
             <picture>
               <source
                 srcset="
-                  ./images/reading-mob-1x.jpg 1x,
-                  ./images/reading-mob-2x.jpg 2x
+                  ./images/reading-mob-1x.png 1x,
+                  ./images/reading-mob-2x.png 2x
                 "
                 media="(min-width:320px)"
               />
@@ -158,8 +156,8 @@
             <picture>
               <source
                 srcset="
-                  ./images/listening-mob-1x.jpg 1x,
-                  ./images/listening-mob-2x.jpg 2x
+                  ./images/listening-mob-1x.png 1x,
+                  ./images/listening-mob-2x.png 2x
                 "
                 media="(min-width:320px)"
               />
@@ -181,7 +179,16 @@
       <section class="about">
         <div class="container">
           <h2 class="about__title">About Us</h2>
-          <img class="about__img" src="./images/about-us.jpg" alt="About Us" />
+          <picture>
+            <source
+              srcset="
+                ./images/about-us-mob-1x.png 1x,
+                ./images/about-us-mob-2x.png 2x
+              "
+              media="(min-width:320px)"
+            />
+            <img class="about__img" src="" alt="About Us" />
+          </picture>
           <p class="about__text">
             The model offers a framework for discussing problems related to the
             user's experience, as well as possible ways and means of solving
@@ -211,11 +218,16 @@
           <h2 class="price__title">Pricing</h2>
           <ul class="price__list">
             <li class="price__item">
-              <img
-                class="price__img"
-                src="./images/self-study.jpg"
-                alt="Self-study online course"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/self-study-mob-1x.png 1x,
+                    ./images/self-study-mob-2x.png 2x
+                  "
+                  media="(min-width:320px)"
+                />
+                <img class="price__img" src="" alt="Self-study online course" />
+              </picture>
               <h3 class="price__subtitle">Self-study online course</h3>
               <p class="price__text">
                 Start learning English online in live classes with qualified EC
@@ -227,11 +239,16 @@
               </div>
             </li>
             <li class="price__item">
-              <img
-                class="price__img"
-                src="./images/live-online.jpg"
-                alt="Live online classes"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/live-online-mob-1x.png 1x,
+                    ./images/live-online-mob-2x.png 2x
+                  "
+                  media="(min-width:320px)"
+                />
+                <img class="price__img" src="" alt="Live online classes" />
+              </picture>
               <h3 class="price__subtitle">Live online classes</h3>
               <p class="price__text">
                 Interactive group classes with expert teachers. Free 7-day trial
@@ -242,11 +259,16 @@
               </div>
             </li>
             <li class="price__item">
-              <img
-                class="price__img"
-                src="./images/personal-tuition.jpg"
-                alt="Personal Tuition"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/personal-tuition-mob-1x.png 1x,
+                    ./images/personal-tuition-mob-2x.png 2x
+                  "
+                  media="(min-width:320px)"
+                />
+                <img class="price__img" src="" alt="Personal Tuition" />
+              </picture>
               <h3 class="price__subtitle">Personal Tuition</h3>
               <p class="price__text">
                 Online one-to-one English tutoring – enjoy our first session for
@@ -263,31 +285,52 @@
       <section class="contact">
         <div class="container">
           <h2 class="contact__title">Contact Us</h2>
-          <img
-            class="contact__img"
-            src="./images/contact-us.jpg"
-            alt="Contact Us"
-          />
+          <picture>
+            <source
+              srcset="
+                ./images/contact-us-mob-1x.png 1x,
+                ./images/contact-us-mob-2x.png 2x
+              "
+              media="(min-width:320px)"
+            />
+            <img class="contact__img" src="" alt="Contact Us" />
+          </picture>
           <p class="contact__text">
             Contact Us Discover your current English level by taking our free
             online English test. Sign up to our newsletter for learning tips and
             free resources Enter Your E-mail Subscribe
           </p>
-          <button class="contact__button" type="button">Subscribe</button>
+          <form class="contact__form" action="">
+            <input
+              class="contact__input"
+              type="email"
+              placeholder="Enter Your E-mail"
+              name="email"
+              required
+            />
+            <button class="contact__button" type="submit">Subscribe</button>
+          </form>
+          <div class="contact__bg-line"></div>
         </div>
       </section>
     </main>
     <footer class="footer">
       <div class="container">
         <a class="footer__logo" href="##"
-          >Brit<span class="footer__logo-accent">lex</span></a
+          ><p class="footer__logo-primary">
+            Brit<span class="footer__logo-accent">lex</span>
+          </p></a
         >
         <ul class="footer__list">
           <li class="footer__item">
-            <a class="footer__link" href="">Terms and Conditions</a>
+            <a class="footer__link" href=""
+              >Terms and Conditions<span class="footer__dot">•</span></a
+            >
           </li>
           <li class="footer__item">
-            <a class="footer__link" href="">Privacy Policy</a>
+            <a class="footer__link" href=""
+              >Privacy Policy<span class="footer__dot">•</span></a
+            >
           </li>
           <li class="footer__item">
             <a class="footer__link" href="">Cookie Policy</a>
