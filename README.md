@@ -81,3 +81,7 @@ font-weight:
 ---
 
 14. добавить анимацию
+
+---
+
+15. по JS `use strict`; строгий режим в js type="module" строгий режим в html
