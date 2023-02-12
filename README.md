@@ -1,4 +1,4 @@
-Britlex
+# Britlex
 
 ---
 
@@ -48,12 +48,15 @@ Britlex
 
 ---
 
-12. фонтс - Free Fonts: https://nomail.com.ua/ Google Fonts:
-    https://fonts.google.com/
+12. фонтс
 
-Fonts converter: http://www.font2web.com/
+- Free Fonts: https://nomail.com.ua/
 
-подключение в CSS или SCSS
+- Google Fonts: https://fonts.google.com/
+
+- Fonts converter: http://www.font2web.com/
+
+- подключение в CSS или SCSS
 
 @font-face { font-family: 'Proxima Nova'; src:
 url('../fonts/FontsFree-Net-Proxima-Nova-Bold.eot'); src: local('в�є'),
