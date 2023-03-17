@@ -5,7 +5,7 @@
   list-style: none;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .menu {
     display: none;
   }
@@ -39,7 +39,7 @@
   color: $primary-color;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .menu-toggle {
     display: none;
   }

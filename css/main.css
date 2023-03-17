@@ -68,7 +68,7 @@ button {
   list-style: none;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .menu {
     display: none;
   }
@@ -106,7 +106,7 @@ button {
   color: #000000;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .menu-toggle {
     display: none;
   }
@@ -279,13 +279,19 @@ button {
 }
 
 .header__burger-menu-icon {
-  width: 33.53px;
+  width: 34px;
   height: 19px;
 }
 @media screen and (min-width: 576px) {
   .header__burger-menu-icon {
-    width: 42.35px;
+    width: 42px;
     height: 24px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .header__burger-menu-icon {
+    width: 30px;
+    height: 17px;
   }
 }
 
@@ -340,6 +346,13 @@ button {
     font-size: 34px;
     line-height: 1.32;
     white-space: nowrap;
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero__title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.26;
   }
 }
 
